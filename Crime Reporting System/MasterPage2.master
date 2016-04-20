@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 680px">
+    <form id="form1" runat="server">
+    <div style="height: 680px; background-color: #CC9900;">
+        <a href=""><img src="CRIME/admin.jpg" alt="Total Management" title="Total Management" border="0" style="height: 180px; width: 1337px" /></a>
+    &nbsp;<asp:Label ID="Label1" runat="server" style="top: 223px; left: 422px; position: absolute; height: 33px; width: 487px; font-weight: 700; color: #333399; font-size: xx-large" Text="CRIME REPORTING SYSTEM"></asp:Label>
+        <asp:Label ID="Label2" runat="server" style="top: 280px; left: 100px; position: absolute; height: 33px; width: 487px; font-weight: 700; color: #FF0000; font-size: x-large" Text="ADMINSTRATION PANEL"></asp:Label>
+    <br />
+    <ul>
+        
+            <li style="width: 113px; top: 325px; left: 1203px; position: absolute; height: 25px"><a href="home.aspx">Home</a></li> 
+            <li style="width: 113px; top: 350px; left: 1203px; position: absolute; height: 25px"><a href="contact.aspx">Contact Us</a></li>
+            
+           </ul>
+        <p style="top: 640px; left: 21px; position: absolute; height: 18px; width: 260px" class="copyright">©Crime Management. all right reserved.</p>
+    <p style="top: 640px; left: 1100px; position: absolute; height: 18px; width: 220px"> Designed By:- H.K Soft Tech</p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

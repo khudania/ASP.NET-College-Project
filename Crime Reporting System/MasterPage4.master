@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage4.master.cs" Inherits="MasterPage4" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 680px; background-color: #FFFFFF;">
+    <form id="form1" runat="server">
+    <div style="height: 680px; background-color: #31D5AF;">
+        <a href=""><img src="CRIME/department_banner.png" alt="Crime Management" title="Crime Management" border="0" style="height: 180px; width: 1337px" /></a>
+    &nbsp;<asp:Label ID="Label1" runat="server" style="top: 223px; left: 422px; position: absolute; height: 33px; width: 487px; font-weight: 700; color: #EA0B43; font-size: xx-large" Text="CRIME REPORTING SYSTEM"></asp:Label>
+    <br />
+    <ul>
+        
+            <li style="width: 113px; top: 275px; left: 1203px; position: absolute; height: 25px"><a href="home.aspx">Home</a></li>
+            <li style="width: 113px; top: 300px; left: 1203px; position: absolute; height: 25px"><a href="login.aspx">Log In</a></li>
+            <li style="width: 113px; top: 325px; left: 1203px; position: absolute; height: 25px"><a href="register.aspx">Register</a></li>
+            <li style="width: 113px; top: 350px; left: 1203px; position: absolute; height: 25px"><a href="forgetpassword.aspx">Forget Password</a></li>
+            
+            <li style="width: 113px; top: 375px; left: 1203px; position: absolute; height: 25px"><a href="contact.aspx">Contact Us</a></li>
+            
+           </ul>
+        <p style="top: 640px; left: 21px; position: absolute; height: 18px; width: 260px" class="copyright">©Crime Management. all right reserved.</p>
+    <p style="top: 640px; left: 1100px; position: absolute; height: 18px; width: 220px"> Designed By:- H.K Soft Tech</p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
